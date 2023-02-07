@@ -26,6 +26,23 @@
 
   $tls->Nationalite = $data->Nationalite;
   
+  $tls->Situation = $data->Situation;
+
+  $tls->adresse = $data->adresse;
+
+  $tls->Type = $data->Type;
+
+  $tls->Start = $data->Start;
+
+  $tls->End = $data->End;
+
+  $tls->Doctype = $data->Doctype;
+
+  $tls->Rendezvous = $data->Rendezvous;
+
+ 
+
+ 
   
 
   // Create tls

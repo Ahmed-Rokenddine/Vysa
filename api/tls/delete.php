@@ -15,11 +15,10 @@
   // Instantiate blog tls object
   $tls = new TLS($db);
 
-  // Get raw tlsed data
-  $data = json_decode(file_get_contents("php://input"));
+    // Get ID
+    $tls->token = isset($_GET['token']) ? $_GET['token'] : die();
 
-  // Set ID to update
-  $tls->id = $data->id;
+    
 
   // Delete tls
   if($tls->delete()) {

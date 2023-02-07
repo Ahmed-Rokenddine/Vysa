@@ -33,7 +33,15 @@
         'Prenom' => $Prenom,
         'Birthday' => $Birthday,
         'Nationalite' => $Nationalite,
-        'Situation' => $Situation
+        'Situation' => $Situation,
+        'adresse' => $adresse,
+        'Type' => $Type,
+        'Start' => $Start,
+        'End' => $End,
+        'Doctype' => $Doctype,
+        'Rendezvous' => $Rendezvous,
+        'Token' => $Token
+        
       );
 
       // Push to "data"
